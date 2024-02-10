@@ -33,8 +33,7 @@ with open(csv_file, 'w', newline='', encoding='utf-8') as file:
     writer.writerow(header)
 
 date_from = '2022-01-01T00:00:00'
-#date_to = '2023-12-31T23:59:59'
-date_to = '2024-02-07T10:46:00'
+date_to = '2023-12-31T23:59:59'
 
 while date_to > date_from:
     # get all relevant Reuters news articles
